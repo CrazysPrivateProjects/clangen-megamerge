@@ -253,6 +253,10 @@
             "one": "brown",
             "many": "dark brown"
         },
+        "RUST": {
+            "one": "brown",
+            "many": "rusted brown"
+        },
         "WOODEN": {
             "one": "wood",
             "many": "wood"
