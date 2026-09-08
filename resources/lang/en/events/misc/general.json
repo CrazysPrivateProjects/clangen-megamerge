@@ -17371,5 +17371,421 @@
                }
             }
         ]
+    },
+    {
+        "event_id": "mod_snails_accessory1",
+        "location": [
+            "any"
+        ],
+        "season": [
+            "any"
+        ],
+        "sub_type": [
+            "accessory"
+        ],
+        "frequency": 1,
+        "event_text": "r_c and m_c go on a walk together! After a while, m_c and r_c run into a cute, slowly moving snail! m_c decides to keep it as a pet, and r_c cooes at the little thing as m_c carries it home.",
+        "new_accessory": [
+            "BROWN SNAIL", "RED SNAIL", "BLUE SNAIL"
+        ],
+        "m_c": {
+            "age": [
+                "-kitten"
+            ]
+        },
+        "r_c": {
+            "age": [
+                "-kitten"
+            ]
+        }
+      },
+      {
+        "event_id": "mod_snails_accessory2",
+        "location": [
+            "any"
+        ],
+        "season": [
+            "any"
+        ],
+        "sub_type": [
+            "accessory"
+        ],
+        "frequency": 1,
+        "event_text": "m_c comes into camp with a happy glint in {PRONOUN/m_c/poss} eye, happily sharing how m_c managed to keep a snail as {PRONOUN/m_c/poss} pet.",
+        "new_accessory": [
+            "BROWN SNAIL", "RED SNAIL", "BLUE SNAIL"
+        ],
+        "m_c": {
+            "age": [
+                "-kitten"
+            ]
+        }
+      },
+    {
+        "event_id": "mod_snails_accessory3",
+        "location": [
+            "any"
+        ],
+        "season": [
+            "any"
+        ],
+        "sub_type": [
+            "accessory"
+        ],
+        "frequency": 1,
+        "event_text": "r_c and m_c go on a walk together! After a while, m_c and r_c run into a cute, slowly moving snail! m_c decides to keep it as a pet, and r_c cooes at the little thing as m_c carries it home.",
+        "new_accessory": [
+            "BROWN SNAIL", "RED SNAIL", "BLUE SNAIL"
+        ],
+        "m_c": {
+            "age": [
+                "adolescent",
+                "young adult",
+                "adult",
+                "senior adult",
+                "senior"
+            ]
+        },
+        "r_c": {
+            "age": [
+                "adolescent",
+                "young adult",
+                "adult",
+                "senior adult",
+                "senior"
+            ]
+        }
+    },
+  {
+        "event_id": "mod_snails_accessory4",
+        "location": [
+            "any"
+        ],
+        "season": [
+            "any"
+        ],
+        "sub_type": [
+            "accessory"
+        ],
+        "frequency": 1,
+        "event_text": "m_c comes into camp with a happy glint in {PRONOUN/m_c/poss} eye, happily sharing how m_c managed to keep a snail as {PRONOUN/m_c/poss} pet.",
+        "new_accessory": [
+            "BROWN SNAIL", "RED SNAIL", "BLUE SNAIL"
+        ],
+        "m_c": {
+            "age": [
+                "adolescent",
+                "young adult",
+                "adult",
+                "senior adult",
+                "senior"
+            ]
+        }
+    },
+        {
+        "event_id": "mod_worm_accessory1",
+        "location": [
+            "any"
+        ],
+        "season": [
+            "any"
+        ],
+        "sub_type": [
+            "accessory"
+        ],
+        "frequency": 1,
+        "event_text": "m_c finds a worm in camp on a rainy day! m_c decides to keep it.",
+        "new_accessory": [
+            "WORM"
+        ],
+        "m_c": {
+            "age": [
+                "adolescent",
+                "young adult",
+                "adult",
+                "senior adult",
+                "senior"
+            ]
+        }
+    },
+      {
+        "event_id": "mod_worm_accessory2",
+        "location": [
+            "any"
+        ],
+        "season": [
+            "any"
+        ],
+        "sub_type": [
+            "accessory"
+        ],
+        "frequency": 1,
+        "event_text": "m_c comes into camp with a happy glint in {PRONOUN/m_c/poss} eye, and a dangling worm in their jaws...!?",
+        "new_accessory": [
+            "WORM"
+        ],
+        "m_c": {
+            "age": [
+                "adolescent",
+                "young adult",
+                "adult",
+                "senior adult",
+                "senior"
+            ]
+        }
+    },
+        {
+        "event_id": "mod_worm_accessory3",
+        "location": [
+            "any"
+        ],
+        "season": [
+            "any"
+        ],
+        "sub_type": [
+            "accessory"
+        ],
+        "frequency": 1,
+        "event_text": "r_c and m_c go on a walk together! After a while, m_c and r_c run into a light pink, squirmy little worm! m_c decides to keep it as a pet, and r_c cooes at the little thing as m_c carries it home.",
+        "new_accessory": [
+            "WORM"
+        ],
+        "m_c": {
+            "age": [
+                "adolescent",
+                "young adult",
+                "adult",
+                "senior adult",
+                "senior"
+            ],
+            "trait": [
+              "strange"
+            ]
+        },
+        "r_c": {
+            "age": [
+                "adolescent",
+                "young adult",
+                "adult",
+                "senior adult",
+                "senior"
+            ]
+        }
+    },
+        {
+        "event_id": "mod_worm_accessory4",
+        "location": [
+            "any"
+        ],
+        "season": [
+            "any"
+        ],
+        "sub_type": [
+            "accessory"
+        ],
+        "frequency": 1,
+        "event_text": "r_c watches with exhausted eyes as m_c violently digs a hole off to the side of c_n camp, flinging dirt everywhere. m_c approaches less than a minute later, covered in dirt and with a long worm in their jaws. Mumbled, m_c asks if {PRONOUN/m_c/subject} can keep {PRONOUN/m_c/poss} new friend. Exasperated, r_c tells {PRONOUN/m_c/object} yes and to <i>not</i> dig holes in camp, and then tiredly walks over to clean up m_c's mess.",
+        "new_accessory": [
+            "WORM"
+        ],
+        "m_c": {
+            "age": [
+                "any"
+            ]
+        },
+        "r_c": {
+            "age": [
+                "any"
+            ]
+        }
+      },
+            {
+        "event_id": "mod_worm_accessory5",
+        "location": [
+            "any"
+        ],
+        "season": [
+            "-leaf-bare"
+        ],
+        "sub_type": [
+            "accessory"
+        ],
+        "frequency": 1,
+        "event_text": "m_c finds a worm in camp on a rainy day! m_c decides to keep it.",
+        "new_accessory": [
+            "WORM"
+        ],
+        "m_c": {
+            "age": [
+                "any"
+            ]
+        }
+    },
+    {
+        "event_id": "mod_redsnail_accessory",
+        "location": [
+            "any"
+        ],
+        "season": [
+            "any"
+        ],
+        "sub_type": [
+            "accessory"
+        ],
+        "frequency": 1,
+        "event_text": "r_c and m_c find a cute snail with a red, pointy shell while hanging out in camp together! m_c decides to keep it with {PRONOUN/m_c/object}.",
+        "new_accessory": [
+            "RED SNAIL"
+        ],
+        "m_c": {
+            "age": [
+                "adolescent",
+                "young adult",
+                "adult",
+                "senior adult",
+                "senior"
+            ]
+        },
+        "r_c": {
+            "age": [
+                "adolescent",
+                "young adult",
+                "adult",
+                "senior adult",
+                "senior"
+            ]
+        }
+    },
+    {
+        "event_id": "mod_isopods_accessory1",
+        "location": [
+            "any"
+        ],
+        "season": [
+            "any"
+        ],
+        "sub_type": [
+            "accessory"
+        ],
+        "frequency": 1,
+        "event_text": "m_c seems to have found a strange bug, and has decided to keep it as a pet.",
+        "new_accessory": [
+            "ZEBRA ISOPOD",
+            "DUCKY ISOPOD",
+            "DAIRY COW ISOPOD",
+            "BEETLEJUICE ISOPOD"
+        ],
+        "m_c": {
+            "age": [
+                "adolescent",
+                "young adult",
+                "adult",
+                "senior adult",
+                "senior"
+            ]
+        }
+    },
+    {
+        "event_id": "mod_isopods_accessory2",
+        "location": [
+            "any"
+        ],
+        "season": [
+            "any"
+        ],
+        "sub_type": [
+            "accessory"
+        ],
+        "frequency": 1,
+        "event_text": "r_c seems to have found a strange bug, and calls m_c over to see it. Curiously enough. m_c has decided to keep it as a pet.",
+        "new_accessory": [
+            "ZEBRA ISOPOD",
+            "DUCKY ISOPOD",
+            "DAIRY COW ISOPOD",
+            "BEETLEJUICE ISOPOD"
+        ],
+        "m_c": {
+            "age": [
+                "adolescent",
+                "young adult",
+                "adult",
+                "senior adult",
+                "senior"
+            ]
+        },
+        "r_c": {
+            "age": [
+                "adolescent",
+                "young adult",
+                "adult",
+                "senior adult",
+                "senior"
+            ]
+        }
+    },
+    {
+        "event_id": "mod_ladybugs_accessory1",
+        "location": [
+            "any"
+        ],
+        "season": [
+            "any"
+        ],
+        "sub_type": [
+            "accessory"
+        ],
+        "frequency": 1,
+        "event_text": "m_c seems to have spotted acc_plural, and has decided to snag one up as a pet.",
+        "new_accessory": [
+            "RED LADYBUG",
+            "ORANGE LADYBUG",
+            "YELLOW LADYBUG"
+        ],
+        "m_c": {
+            "age": [
+                "adolescent",
+                "young adult",
+                "adult",
+                "senior adult",
+                "senior"
+            ]
+        }
+    },
+    {
+        "event_id": "mod_ladybugs_accessory2",
+        "location": [
+            "any"
+        ],
+        "season": [
+            "any"
+        ],
+        "sub_type": [
+            "accessory"
+        ],
+        "frequency": 1,
+        "event_text": "r_c seems to have found a pack of acc_singular collecting near a bush, and calls m_c over to see the acc_plural. Curiously enough. m_c has decided to keep one as a pet.",
+        "new_accessory": [
+            "RED LADYBUG",
+            "ORANGE LADYBUG",
+            "YELLOW LADYBUG"
+        ],
+        "m_c": {
+            "age": [
+                "adolescent",
+                "young adult",
+                "adult",
+                "senior adult",
+                "senior"
+            ]
+        },
+        "r_c": {
+            "age": [
+                "adolescent",
+                "young adult",
+                "adult",
+                "senior adult",
+                "senior"
+            ]
+        }
     }
 ]

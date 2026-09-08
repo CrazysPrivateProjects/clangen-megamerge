@@ -4486,7 +4486,7 @@
         "newborn_exotic_light_pattern": "#FFFDF4",
         "newborn_exotic_muzzle": "#837357"
 },
-"RUSTEDIRON": {
+    "RUSTEDIRON": {
         "base": "#AAAAAF",
         "base_gradient_bottom": "#E4EAF0",
         "base_gradient_top": "#805C50",
