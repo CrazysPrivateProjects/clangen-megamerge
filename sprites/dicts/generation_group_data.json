@@ -59,9 +59,7 @@
             "RAWHIDE": "brown",
             "COCOA": "brown",
             "CLAY": "brown",
-            "SILVERBROWN": "brown",
-            "DANCEONE": "brown",
-            "DANCETWO": "brown"
+            "SILVERBROWN": "brown"
         },
         "pattern_types": {
             "Tabby": "tabbies",
