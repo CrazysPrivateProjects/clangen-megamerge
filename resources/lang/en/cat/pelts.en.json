@@ -237,6 +237,14 @@
             "one": "silver brown",
             "many": "silver brown"
         },
+        "DANCEONE": {
+            "one": "brown",
+            "many": "light brown"
+        },
+        "DANCETWO": {
+            "one": "brown",
+            "many": "dark brown"
+        },
         "SingleColour": "single color",
         "SingleColour_long": "%{color}",
         "TwoColour": "two color",
