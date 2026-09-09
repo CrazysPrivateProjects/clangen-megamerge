@@ -272,7 +272,7 @@
         "GORSE": {
             "zero": "gorse flowers",
             "many": "gorse flowers",
-            "one": "gorse flowers"
+            "one": "gorse flower"
         },
         "BULB WHITE": {
             "zero": "white flower bulb",
@@ -483,6 +483,66 @@
             "zero": "rainbow french scarf",
             "many": "rainbow french scarves",
             "one": "rainbow french scarf"
+        },
+        "BROWN SNAIL": {
+            "zero": "brown snail",
+            "many": "brown snails",
+            "one": "brown snail"
+        },
+        "RED SNAIL": {
+            "zero": "red snail",
+            "many": "red snails",
+            "one": "red snail"
+        },
+        "WORM": {
+            "zero": "worm",
+            "many": "worms",
+            "one": "worm"
+        },
+        "BLUE SNAIL": {
+            "zero": "blue snail",
+            "many": "blue snails",
+            "one": "blue snail"
+        },
+        "ZEBRA ISOPOD": {
+            "zero": "zebra isopod",
+            "many": "zebra isopods",
+            "one": "zebra isopod"
+        },
+        "DUCKY ISOPOD": {
+            "zero": "ducky isopod",
+            "many": "ducky isopods",
+            "one": "ducky isopod"
+        },
+        "DAIRY COW ISOPOD": {
+            "zero": "dairy cow isopod",
+            "many": "dairy cow isopods",
+            "one": "dairy cow isopod"
+        },
+        "BEETLEJUICE ISOPOD": {
+            "zero": "beetlejuice isopod",
+            "many": "beetlejuice isopods",
+            "one": "beetlejuice isopod"
+        },
+        "BEE": {
+            "zero": "bee",
+            "many": "bees",
+            "one": "bee"
+        },
+        "RED LADYBUG": {
+            "zero": "red ladybug",
+            "many": "red ladybugs",
+            "one": "red ladybug"
+        },
+        "ORANGE LADYBUG": {
+            "zero": "orange ladybug",
+            "many": "orange ladybugs",
+            "one": "orange ladybug"
+        },
+        "YELLOW LADYBUG": {
+            "zero": "yellow ladybug",
+            "many": "yellow ladybugs",
+            "one": "yellow ladybug"
         }
     }
 }

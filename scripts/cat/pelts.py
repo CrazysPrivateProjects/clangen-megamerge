@@ -203,6 +203,19 @@ class Pelt:
             elif sprite_list[sprite] == "paw":
                 paw_accessories.append(sprite)
 
+    living_insect_accessories = []
+    for sprite_list in sprites.LIVING_INSECT_DATA["sprite_list"]:
+        living_insect_accessories.extend(sprite_list)
+        for sprite in sprite_list:
+            if sprite_list[sprite] == "tail":
+                tail_accessories.append(sprite)
+            elif sprite_list[sprite] == "body":
+                body_accessories.append(sprite)
+            elif sprite_list[sprite] == "head":
+                body_accessories.append(sprite)
+            elif sprite_list[sprite] == "paw":
+                paw_accessories.append(sprite)
+
     collar_accessories = []
     collar_styles = []
     if sprites.COLLAR_DATA["palette_map"]:
@@ -243,9 +256,9 @@ class Pelt:
         paralyzed: bool = False,
         opacity: int = 100,
         scars: list = None,
-        tint: str = "none",
+        tint: str | None = None,
         skin: str = "BLACK",
-        white_patches_tint: str = "none",
+        white_patches_tint: str | None = None,
         newborn_sprite: str = None,
         kitten_sprite: str = None,
         adol_sprite: str = None,

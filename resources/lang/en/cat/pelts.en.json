@@ -25,14 +25,6 @@
             "one": "aluminum",
             "many": "aluminum"
         },
-        "SILVERCINNAMON": {
-            "one": "silver cinnamon",
-            "many": "silver cinnamon"
-        },
-        "SILVERRED": {
-            "one": "silver red",
-            "many": "silver red"
-        },
         "CHINCHILLA": {
             "one": "chinchilla",
             "many": "chinchilla"
@@ -45,13 +37,13 @@
             "one": "taupedo",
             "many": "taupedo"
         },
-        "SILVERLILAC": {
-            "one": "silver lilac",
-            "many": "silver lilac"
+        "EARLGRAY": {
+            "one": "gray",
+            "many": "pale gray"
         },
-        "SILVERASH": {
-            "one": "silver ash",
-            "many": "silver ash"
+        "ROSESILVER": {
+            "one": "rosy silver",
+            "many": "pale rosy silver"
         },
         "GREY": {
             "one": "gray",
@@ -145,6 +137,30 @@
             "one": "nightshade",
             "many": "nightshade"
         },
+        "MOLD": {
+            "one": "black",
+            "many": "black"
+        },
+        "STARRY": {
+            "one": "black",
+            "many": "black"
+        },
+        "SILVERASH": {
+            "one": "silver ash",
+            "many": "silver ash"
+        },
+        "CONCRETE": {
+            "one": "dark gray",
+            "many": "black"
+        },
+        "NIGHTTIME": {
+            "one": "black",
+            "many": "black"
+        },
+        "RUSTED": {
+            "one": "rusty black",
+            "many": "rusty black"
+        },
         "CREAM": {
             "one": "cream",
             "many": "cream"
@@ -173,6 +189,46 @@
             "one": "silver orange",
             "many": "silver orange"
         },
+        "ACACIA": {
+            "one": "ginger",
+            "many": "dark ginger"
+        },
+        "TOASTED": {
+            "one": "white-ginger",
+            "many": "white-ginger"
+        },
+        "SUNSHINE": {
+            "one": "golden-gray",
+            "many": "golden-gray"
+        },
+        "GOLD-GRAY": {
+            "one": "golden-gray",
+            "many": "golden-gray"
+        },
+        "BRICK": {
+            "one": "red",
+            "many": "dark red"
+        },
+        "BINGO": {
+            "one": "ginger",
+            "many": "ginger"
+        },
+        "SILVERRED": {
+            "one": "silver red",
+            "many": "silver red"
+        },
+        "PEACH": {
+            "one": "ginger",
+            "many": "pale ginger"
+        },
+        "BANANA": {
+            "one": "yellow",
+            "many": "pale yellow"
+        },
+        "RUSTEDIRON": {
+            "one": "rusty silver",
+            "many": "rusty silver"
+        },
         "LIGHTBROWN": {
             "one": "brown",
             "many": "light brown"
@@ -196,6 +252,10 @@
         "CHOCOLATE": {
             "one": "brown",
             "many": "dark brown"
+        },
+        "RUST": {
+            "one": "brown",
+            "many": "rusted brown"
         },
         "WOODEN": {
             "one": "wood",
@@ -237,6 +297,46 @@
             "one": "silver brown",
             "many": "silver brown"
         },
+        "LAVENDER": {
+            "one": "brown",
+            "many": "light brown"
+        },
+        "MOSSYLOG": {
+            "one": "brown",
+            "many": "light brown"
+        },
+        "SILVERCINNAMON": {
+            "one": "silver cinnamon",
+            "many": "silver cinnamon"
+        },
+        "SILVERLILAC": {
+            "one": "silver lilac",
+            "many": "silver lilac"
+        },
+        "MUD": {
+            "one": "brown",
+            "many": "dark brown"
+        },
+        "LIMESTONE": {
+            "one": "gray-brown",
+            "many": "pale gray-brown"
+        },
+        "CARPET": {
+            "one": "brown",
+            "many": "light brown"
+        },
+        "TEA": {
+            "one": "brown",
+            "many": "golden brown"
+        },
+        "MULBERRY": {
+            "one": "brown",
+            "many": "light brown"
+        },
+        "REDCLAY": {
+            "one": "brown",
+            "many": "brown"
+        },
         "SingleColour": "single color",
         "SingleColour_long": "%{color}",
         "TwoColour": "two color",
@@ -269,6 +369,12 @@
         "Sokoke_long": "%{color} tabby",
         "Masked": "masked",
         "Masked_long": "masked %{color} tabby",
+        "Abyssinian": "abyssinian",
+        "Abyssinian_long": "%{color} abyssinian",
+        "Wolf": "wolf",
+        "Wolf_long":  "%{color} wolf",
+        "Spots": "spotted",
+        "Spots_long": "%{color} spotted",
         "Calico": "calico",
         "Calico_long": "%{color} calico",
         "Calico_tabby": "calico tabby",
