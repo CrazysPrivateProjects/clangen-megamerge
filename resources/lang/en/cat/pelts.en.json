@@ -109,17 +109,9 @@
             "one": "dolphin",
             "many": "dolphin"
         },
-        "PURPLETONE": {
-            "one": "purpletone",
-            "many": "purpletone"
-        },
         "SMOKY": {
             "one": "smoky",
             "many": "smoky"
-        },
-        "CAULDRON": {
-            "one": "cauldron",
-            "many": "cauldron"
         },
         "BLACKOLIVE": {
             "one": "black olive",
@@ -161,6 +153,10 @@
             "one": "rusty black",
             "many": "rusty black"
         },
+        "DAWN": {
+            "one": "cream",
+            "many": "bimetallic"
+        },
         "CREAM": {
             "one": "cream",
             "many": "cream"
@@ -184,6 +180,14 @@
         "SIENNA": {
             "one": "ginger",
             "many": "dark ginger"
+        },
+        "BLOSSOM": {
+            "one": "cream",
+            "many": "cream"
+        },
+        "SOMALI": {
+            "one": "somali",
+            "many": "somali"
         },
         "SILVERORANGE": {
             "one": "silver orange",
@@ -248,6 +252,10 @@
         "DARKBROWN": {
             "one": "brown",
             "many": "dark brown"
+        },
+        "MALLOW": {
+            "one": "brown",
+            "many": "light brown"
         },
         "CHOCOLATE": {
             "one": "brown",

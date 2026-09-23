@@ -203,9 +203,61 @@ class Pelt:
             elif sprite_list[sprite] == "paw":
                 paw_accessories.append(sprite)
 
-    living_insect_accessories = []
-    for sprite_list in sprites.LIVING_INSECT_DATA["sprite_list"]:
-        living_insect_accessories.extend(sprite_list)
+    living_insects_accessories = []
+    for sprite_list in sprites.LIVING_INSECTS_DATA["sprite_list"]:
+        living_insects_accessories.extend(sprite_list)
+        for sprite in sprite_list:
+            if sprite_list[sprite] == "tail":
+                tail_accessories.append(sprite)
+            elif sprite_list[sprite] == "body":
+                body_accessories.append(sprite)
+            elif sprite_list[sprite] == "head":
+                body_accessories.append(sprite)
+            elif sprite_list[sprite] == "paw":
+                paw_accessories.append(sprite)
+
+    snakes_accessories = []
+    for sprite_list in sprites.SNAKES_DATA["sprite_list"]:
+        snakes_accessories.extend(sprite_list)
+        for sprite in sprite_list:
+            if sprite_list[sprite] == "tail":
+                tail_accessories.append(sprite)
+            elif sprite_list[sprite] == "body":
+                body_accessories.append(sprite)
+            elif sprite_list[sprite] == "head":
+                body_accessories.append(sprite)
+            elif sprite_list[sprite] == "paw":
+                paw_accessories.append(sprite)
+
+    ster_flowers_accessories = []
+    for sprite_list in sprites.STER_FLOWERS_DATA["sprite_list"]:
+        ster_flowers_accessories.extend(sprite_list)
+        for sprite in sprite_list:
+            if sprite_list[sprite] == "tail":
+                tail_accessories.append(sprite)
+            elif sprite_list[sprite] == "body":
+                body_accessories.append(sprite)
+            elif sprite_list[sprite] == "head":
+                body_accessories.append(sprite)
+            elif sprite_list[sprite] == "paw":
+                paw_accessories.append(sprite)
+
+    companions_accessories = []
+    for sprite_list in sprites.COMPANIONS_DATA["sprite_list"]:
+        companions_accessories.extend(sprite_list)
+        for sprite in sprite_list:
+            if sprite_list[sprite] == "tail":
+                tail_accessories.append(sprite)
+            elif sprite_list[sprite] == "body":
+                body_accessories.append(sprite)
+            elif sprite_list[sprite] == "head":
+                body_accessories.append(sprite)
+            elif sprite_list[sprite] == "paw":
+                paw_accessories.append(sprite)
+
+    random_accessories = []
+    for sprite_list in sprites.RANDOM_DATA["sprite_list"]:
+        random_accessories.extend(sprite_list)
         for sprite in sprite_list:
             if sprite_list[sprite] == "tail":
                 tail_accessories.append(sprite)
@@ -234,6 +286,10 @@ class Pelt:
         "PLANT": plant_accessories,
         "WILD": wild_accessories,
         "COLLAR": collar_accessories,
+        "LIVING_INSECTS": living_insects_accessories,
+        "SNAKES": snakes_accessories,
+        "STER_FLOWERS": ster_flowers_accessories,
+        "COMPANIONS": companions_accessories
     }
 
     """Holds all appearance information for a cat. """

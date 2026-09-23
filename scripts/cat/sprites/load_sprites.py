@@ -64,9 +64,29 @@ class Sprites:
         PLANT_DATA = ujson.loads(read_file.read())
 
     with open(
-        "sprites/dicts/living_insect_sprite_data.json", "r", encoding="utf-8"
+        "sprites/dicts/living_insects_sprite_data.json", "r", encoding="utf-8"
     ) as read_file:
-        LIVING_INSECT_DATA = ujson.loads(read_file.read())
+        LIVING_INSECTS_DATA = ujson.loads(read_file.read())
+
+    with open(
+        "sprites/dicts/snakes_sprite_data.json", "r", encoding="utf-8"
+    ) as read_file:
+        SNAKES_DATA = ujson.loads(read_file.read())
+
+    with open(
+        "sprites/dicts/ster_flowers_sprite_data.json", "r", encoding="utf-8"
+    ) as read_file:
+        STER_FLOWERS_DATA = ujson.loads(read_file.read())
+
+    with open(
+        "sprites/dicts/companions_sprite_data.json", "r", encoding="utf-8"
+    ) as read_file:
+        COMPANIONS_DATA = ujson.loads(read_file.read())
+
+    with open(
+        "sprites/dicts/random_sprite_data.json", "r", encoding="utf-8"
+    ) as read_file:
+        RANDOM_DATA = ujson.loads(read_file.read())
 
     with open(
         "sprites/dicts/scar_sprite_data.json", "r", encoding="utf-8"
@@ -336,6 +356,11 @@ class Sprites:
             self.PLANT_DATA,
             self.WILD_DATA,
             self.COLLAR_DATA,
+            self.LIVING_INSECTS_DATA,
+            self.SNAKES_DATA,
+            self.STER_FLOWERS_DATA,
+            self.COMPANIONS_DATA,
+            self.RANDOM_DATA
         )
 
         # data jsons that have multiple associated spritesheets

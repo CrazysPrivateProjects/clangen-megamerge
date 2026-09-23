@@ -134,6 +134,14 @@ def _draw_sprite(
         tint.fill(tuple(sprites.cat_tints["dilute_tint_colours"][cat.pelt.tint]))
         new_sprite.blit(tint, (0, 0), special_flags=pygame.BLEND_RGB_ADD)
 
+    if (
+        cat.pelt.tint is not None
+        and cat.pelt.tint in sprites.cat_tints["remove_tone_tint_colours"]
+    ):
+        tint = pygame.Surface((sprites.size, sprites.size)).convert_alpha()
+        tint.fill(tuple(sprites.cat_tints["remove_tone_tint_colours"][cat.pelt.tint]))
+        new_sprite.blit(tint, (0, 0), special_flags=pygame.BLEND_RGB_SUB)
+
     # draw white patches
     if cat.pelt.white_patches is not None:
         patch = cat.pelt.white_patches
@@ -356,9 +364,33 @@ def _draw_sprite(
                             ),
                             (0, 0),
                         )
-                    elif accessory in cat.pelt.living_insect_accessories:
+                    elif accessory in cat.pelt.living_insects_accessories:
                         sprite_name = (
-                            f"{sprites.LIVING_INSECT_DATA['spritesheet']}{accessory}{cat_sprite}"
+                            f"{sprites.LIVING_INSECTS_DATA['spritesheet']}{accessory}{cat_sprite}"
+                        )
+                        new_sprite.blit(
+                            _recolor_lineart(
+                                sprites.sprites[sprite_name],
+                                lineart_color,
+                                gradient_surface,
+                                ),
+                                (0, 0),
+                        )
+                    elif accessory in cat.pelt.snakes_accessories:
+                        sprite_name = (
+                            f"{sprites.SNAKES_DATA['spritesheet']}{accessory}{cat_sprite}"
+                                        )
+                        new_sprite.blit(
+                            _recolor_lineart(
+                                sprites.sprites[sprite_name],
+                                lineart_color,
+                                gradient_surface,
+                                ),
+                                (0, 0),
+                        )
+                    elif accessory in cat.pelt.ster_flowers_accessories:
+                        sprite_name = (
+                            f"{sprites.STER_FLOWERS_DATA['spritesheet']}{accessory}{cat_sprite}"
                         )
                         new_sprite.blit(
                              _recolor_lineart(
@@ -368,6 +400,33 @@ def _draw_sprite(
                                 ),
                                 (0, 0),
                         )
+
+                    elif accessory in cat.pelt.companions_accessories:
+                        sprite_name = (
+                            f"{sprites.COMPANIONS_DATA['spritesheet']}{accessory}{cat_sprite}"
+                        )
+                        new_sprite.blit(
+                             _recolor_lineart(
+                                sprites.sprites[sprite_name],
+                                lineart_color,
+                                gradient_surface,
+                                ),
+                                (0, 0),
+                        )
+
+                    elif accessory in cat.pelt.random_accessories:
+                        sprite_name = (
+                            f"{sprites.RANDOM_DATA['spritesheet']}{accessory}{cat_sprite}"
+                        )
+                        new_sprite.blit(
+                            _recolor_lineart(
+                                sprites.sprites[sprite_name],
+                                lineart_color,
+                                gradient_surface,
+                                ),
+                                (0, 0),
+                        )
+
                     elif accessory in cat.pelt.collar_accessories:
                         sprite_name = f"{sprites.COLLAR_DATA['spritesheet']}{accessory}{cat_sprite}"
                         new_sprite.blit(
