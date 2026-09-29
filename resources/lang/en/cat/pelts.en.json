@@ -185,6 +185,10 @@
             "one": "cream",
             "many": "cream"
         },
+        "HONEY": {
+            "one": "honey",
+            "many": "honey"
+        },
         "SOMALI": {
             "one": "somali",
             "many": "somali"
@@ -345,9 +349,95 @@
             "one": "brown",
             "many": "brown"
         },
-        "SingleColour": "single color",
+        "BURRO": {
+            "one": "burro",
+            "many": "burro"
+        },
+        "SABLE": {
+            "one": "sable",
+            "many": "sable"
+        },
+        "IVORY": {
+            "one": "ivory",
+            "many": "ivory"
+        },
+        "MARMITE": {
+            "one": "marmite",
+            "many": "marmite"
+        },
+        "ROEBUCK": {
+            "one": "roebuck",
+            "many": "roebuck"
+        },
+        "FRAPPE": {
+            "one": "frappe",
+            "many": "frappe"
+        },
+        "BEIGE": {
+            "one": "beige",
+            "many": "beige"
+        },
+        "BONE": {
+            "one": "bone",
+            "many": "bone"
+        },
+        "VANILLA": {
+            "one": "vanilla",
+            "many": "vanilla"
+        },
+        "CLAM": {
+            "one": "clam",
+            "many": "clam"
+        },
+        "pink": "pink",
+        "gray": "haze",
+        "red": "red",
+        "black": "grey",
+        "orange": "orange",
+        "yellow": "yellow",
+        "purple": "purple",
+        "blue": "blue",
+        "blush:": "blush",
+        "willow": "willow",
+        "bluegray": "bluegray",
+        "lilac": "lilac",
+        "tan": "tan",
+        "rosy": "rosy",
+        "lightpink": "lightpink",
+        "bluesky": "bluesky",
+        "pinkgray": "pinkgray",
+        "dark": "dark",
+        "darkpurple": "darkpurple",
+        "night": "black",
+        "gloaming": "twilight",
+        "auburn": "auburn",
+        "plum": "plum",
+        "patina": "patina",
+        "quartz": "quartz",
+        "tawny": "tawny",
+        "dilute": "dilute",
+        "warmdilute": "sun",
+        "cooldilute": "ice",
+        "lilacdilute": "lilac",
+        "pinkdilute": "peach",
+        "earthydilute": "tan",
+        "densecocoa": "cocoa",
+        "densedust": "dust",
+        "denseamber": "amber",
+        "None": "none",
+
+        "mostly_white": "mostly",
+        "high_white": "high",
+        "mid_white": "medium",
+        "little_white": "little",
+        "darkcream": "dark cream",
+        "cream": "cream",
+        "offwhite": "off-white",
+        "midnight": "dark",
+
+        "SingleColour": "single colour",
         "SingleColour_long": "%{color}",
-        "TwoColour": "two color",
+        "TwoColour": "two colour",
         "TwoColour_long": "%{color}",
         "Tabby": "tabby",
         "Tabby_long": "%{color} tabby",

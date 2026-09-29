@@ -820,7 +820,7 @@
             "one": "daisy bloom"
         },
         "FEATHERS": {
-            "zero": "feather",
+            "zero": "feathers",
             "many": "feathers",
             "one": "feather"
         },
@@ -865,9 +865,39 @@
             "one": "die"
         },
         "GOLDEN EARRINGS": {
-            "zero": "golden earring",
+            "zero": "golden earrings",
             "many": "golden earrings",
             "one": "golden earring"
+        },
+        "SEAWEED": {
+            "zero": "seaweed",
+            "many": "seaweed",
+            "one": "seaweed"
+        },
+        "DAISY CORSAGE": {
+            "zero": "daisy corsage",
+            "many": "daisy corsages",
+            "one": "daisy corsage"
+        },
+        "RAVEN FEATHERS": {
+            "zero": "raven feathers",
+            "many": "raven feathers",
+            "one": "raven feather"
+        },
+        "MARTIN FEATHERS": {
+            "zero": "martin feathers",
+            "many": "martin feathers",
+            "one": "martin feather"
+        },
+        "MUDDY PAWS": {
+            "zero": "muddy paws",
+            "many": "muddy paws",
+            "one": "muddy paw"
+        },
+        "BLOODY PAWS": {
+            "zero": "bloody paws",
+            "many": "bloody paws",
+            "one": "bloody paw"
         }
     }
 }

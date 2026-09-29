@@ -2476,7 +2476,10 @@
             "JAY FEATHERS",
             "GULL FEATHERS",
             "SPARROW FEATHERS",
-            "FEATHERS"
+            "FEATHERS",
+            "DAISY CORSAGE",
+            "RAVEN FEATHERS",
+            "MARTIN FEATHERS"
         ],
         "m_c": {
             "age": [
@@ -2511,7 +2514,8 @@
             "WHITE ROSE",
             "GOLDEN FLOWER",
             "DANDELIONS",
-            "DANDELION PUFFS"
+            "DANDELION PUFFS",
+            "DAISY CORSAGE"
         ],
         "m_c": {
             "age": [
@@ -2577,7 +2581,8 @@
             "WHITE ROSE",
             "GOLDEN FLOWER",
             "DANDELIONS",
-            "DANDELION PUFFS"
+            "DANDELION PUFFS",
+            "DAISY CORSAGE"
         ],
         "m_c": {
             "age": [
@@ -2614,7 +2619,8 @@
             "WHITE ROSE",
             "GOLDEN FLOWER",
             "DANDELIONS",
-            "DANDELION PUFFS"
+            "DANDELION PUFFS",
+            "DAISY CORSAGE"
         ],
         "m_c": {
             "age": [
@@ -2675,7 +2681,8 @@
             "WHITE ROSE",
             "GOLDEN FLOWER",
             "DANDELIONS",
-            "DANDELION PUFFS"
+            "DANDELION PUFFS",
+            "DAISY CORSAGE"
         ],
         "m_c": {
             "age": [
@@ -2738,7 +2745,8 @@
             "WHITE ROSE",
             "GOLDEN FLOWER",
             "DANDELIONS",
-            "DANDELION PUFFS"
+            "DANDELION PUFFS",
+            "DAISY CORSAGE"
         ],
         "m_c": {
             "age": [
@@ -2775,7 +2783,8 @@
             "WHITE ROSE",
             "GOLDEN FLOWER",
             "DANDELIONS",
-            "DANDELION PUFFS"
+            "DANDELION PUFFS",
+            "DAISY CORSAGE"
         ],
         "m_c": {
             "age": [
@@ -2859,7 +2868,8 @@
             "WHITE ROSE",
             "GOLDEN FLOWER",
             "DANDELIONS",
-            "DANDELION PUFFS"
+            "DANDELION PUFFS",
+            "DAISY CORSAGE"
         ],
         "m_c": {
             "age": [
@@ -3243,7 +3253,8 @@
             "WHITE ROSE",
             "GOLDEN FLOWER",
             "DANDELIONS",
-            "DANDELION PUFFS"
+            "DANDELION PUFFS",
+            "DAISY CORSAGE"
         ],
         "m_c": {
             "age": [
@@ -3310,7 +3321,8 @@
             "WHITE ROSE",
             "GOLDEN FLOWER",
             "DANDELIONS",
-            "DANDELION PUFFS"
+            "DANDELION PUFFS",
+            "DAISY CORSAGE"
         ],
         "m_c": {
             "age": [
@@ -3870,7 +3882,9 @@
             "JAY FEATHERS",
             "GULL FEATHERS",
             "SPARROW FEATHERS",
-            "FEATHERS"
+            "FEATHERS",
+            "RAVEN FEATHERS",
+            "MARTIN FEATHERS"
         ],
         "m_c": {
             "status": [
@@ -4024,7 +4038,8 @@
             "WHITE ROSE",
             "GOLDEN FLOWER",
             "DANDELIONS",
-            "DANDELION PUFFS"
+            "DANDELION PUFFS",
+            "DAISY CORSAGE"
         ],
         "m_c": {
             "age": [
@@ -4085,7 +4100,8 @@
             "WHITE ROSE",
             "GOLDEN FLOWER",
             "DANDELIONS",
-            "DANDELION PUFFS"
+            "DANDELION PUFFS",
+            "DAISY CORSAGE"
         ],
         "m_c": {
             "age": [
@@ -4145,7 +4161,8 @@
             "WHITE ROSE",
             "GOLDEN FLOWER",
             "DANDELIONS",
-            "DANDELION PUFFS"
+            "DANDELION PUFFS",
+            "DAISY CORSAGE"
         ],
         "m_c": {
             "age": [
@@ -4213,7 +4230,8 @@
             "WHITE ROSE",
             "GOLDEN FLOWER",
             "DANDELIONS",
-            "DANDELION PUFFS"
+            "DANDELION PUFFS",
+            "DAISY CORSAGE"
         ],
         "m_c": {
             "age": [
@@ -4257,7 +4275,8 @@
             "WHITE ROSE",
             "GOLDEN FLOWER",
             "DANDELIONS",
-            "DANDELION PUFFS"
+            "DANDELION PUFFS",
+            "DAISY CORSAGE"
         ],
         "m_c": {
             "age": [
@@ -5123,7 +5142,7 @@
         },
         "frequency": 4,
         "event_text": "m_c was on a walk by POI when {PRONOUN/m_c/subject} found some lovely feathers. {PRONOUN/m_c/subject/CAP} decided to wear them.",
-        "new_accessory": ["BLUE FEATHERS", "RED FEATHERS", "JAY FEATHERS", "GULL FEATHERS", "SPARROW FEATHERS", "FEATHERS"],
+        "new_accessory": ["BLUE FEATHERS", "RED FEATHERS", "JAY FEATHERS", "GULL FEATHERS", "SPARROW FEATHERS", "FEATHERS", "MARTIN FEATHERS", "RAVEN FEATHERS"],
         "m_c": {
             "status": ["-kitten"]
         }
@@ -5185,7 +5204,8 @@
             "WHITE ROSE",
             "GOLDEN FLOWER",
             "DANDELIONS",
-            "DANDELION PUFFS"
+            "DANDELION PUFFS",
+            "DAISY CORSAGE"
         ],
         "m_c": {
             "status": [
@@ -5212,7 +5232,9 @@
             "SPARROW FEATHERS",
             "JAY FEATHERS",
             "RED FEATHERS",
-            "FEATHERS"
+            "FEATHERS",
+            "RAVEN FEATHERS",
+            "MARTIN FEATHERS"
         ],
         "m_c": {
             "age": [
@@ -7641,7 +7663,8 @@
             "WHITE ROSE",
             "GOLDEN FLOWER",
             "DANDELIONS",
-            "DANDELION PUFFS"
+            "DANDELION PUFFS",
+            "DAISY CORSAGE"
         ],
         "m_c": {
             "status": [
@@ -7835,7 +7858,8 @@
             "WHITE ROSE",
             "GOLDEN FLOWER",
             "DANDELIONS",
-            "DANDELION PUFFS"
+            "DANDELION PUFFS",
+            "DAISY CORSAGE"
         ],
         "m_c": {
             "status": [
@@ -9671,7 +9695,8 @@
             "WHITE ROSE",
             "GOLDEN FLOWER",
             "DANDELIONS",
-            "DANDELION PUFFS"
+            "DANDELION PUFFS",
+            "DAISY CORSAGE"
         ],
         "m_c": {
             "status": [
@@ -9733,7 +9758,8 @@
             "WHITE ROSE",
             "GOLDEN FLOWER",
             "DANDELIONS",
-            "DANDELION PUFFS"
+            "DANDELION PUFFS",
+            "DAISY CORSAGE"
         ],
         "m_c": {
             "status": [
@@ -9795,7 +9821,8 @@
             "WHITE ROSE",
             "GOLDEN FLOWER",
             "DANDELIONS",
-            "DANDELION PUFFS"
+            "DANDELION PUFFS",
+            "DAISY CORSAGE"
         ],
         "m_c": {
             "status": [
@@ -9857,7 +9884,8 @@
             "WHITE ROSE",
             "GOLDEN FLOWER",
             "DANDELIONS",
-            "DANDELION PUFFS"
+            "DANDELION PUFFS",
+            "DAISY CORSAGE"
         ],
         "m_c": {
             "status": [
@@ -10021,7 +10049,8 @@
             "WHITE ROSE",
             "GOLDEN FLOWER",
             "DANDELIONS",
-            "DANDELION PUFFS"
+            "DANDELION PUFFS",
+            "DAISY CORSAGE"
         ],
         "m_c": {
             "status": [
@@ -10088,7 +10117,8 @@
             "WHITE ROSE",
             "GOLDEN FLOWER",
             "DANDELIONS",
-            "DANDELION PUFFS"
+            "DANDELION PUFFS",
+            "DAISY CORSAGE"
         ],
         "m_c": {
             "status": [
@@ -10152,7 +10182,8 @@
             "WHITE ROSE",
             "GOLDEN FLOWER",
             "DANDELIONS",
-            "DANDELION PUFFS"
+            "DANDELION PUFFS",
+            "DAISY CORSAGE"
         ],
         "m_c": {
             "status": [
@@ -10220,7 +10251,8 @@
             "DANDELIONS",
             "DANDELION PUFFS",
             "RACCOON LEAF",
-            "WHITE RACCOON LEAF"
+            "WHITE RACCOON LEAF",
+            "DAISY CORSAGE"
         ],
         "m_c": {
             "status": [
@@ -10293,7 +10325,8 @@
             "DANDELIONS",
             "DANDELION PUFFS",
             "RACCOON LEAF",
-            "WHITE RACCOON LEAF"
+            "WHITE RACCOON LEAF",
+            "DAISY CORSAGE"
         ],
         "m_c": {
             "status": [
@@ -10362,7 +10395,8 @@
             "DANDELIONS",
             "DANDELION PUFFS",
             "RACCOON LEAF",
-            "WHITE RACCOON LEAF"
+            "WHITE RACCOON LEAF",
+            "DAISY CORSAGE"
         ],
         "m_c": {
             "status": [
@@ -10480,7 +10514,8 @@
             "WHITE ROSE",
             "GOLDEN FLOWER",
             "DANDELIONS",
-            "DANDELION PUFFS"
+            "DANDELION PUFFS",
+            "DAISY CORSAGE"
         ],
         "m_c": {
             "age": [
@@ -11689,7 +11724,8 @@
             "WHITE ROSE",
             "GOLDEN FLOWER",
             "DANDELIONS",
-            "DANDELION PUFFS"
+            "DANDELION PUFFS",
+            "DAISY CORSAGE"
         ],
         "other_clan": {
             "changed": 2
@@ -17541,7 +17577,9 @@
             "JAY FEATHERS",
             "GULL FEATHERS",
             "SPARROW FEATHERS",
-            "FEATHERS"
+            "FEATHERS",
+            "RAVEN FEATHERS",
+            "MARTIN FEATHERS"
         ],
         "m_c": {
             "status": ["apprentice"]
@@ -17673,7 +17711,15 @@
         "tags": [],
         "frequency": 2,
         "event_text": "m_c took a moment to pick a specific bird from the fresh-kill pile and was later seen wearing its feathers.",
-        "new_accessory": ["BLUE FEATHERS", "SPARROW FEATHERS", "JAY FEATHERS", "RED FEATHERS", "FEATHERS"],
+        "new_accessory": [
+            "BLUE FEATHERS",
+            "SPARROW FEATHERS",
+            "JAY FEATHERS",
+            "RED FEATHERS",
+            "FEATHERS",
+            "RAVEN FEATHERS",
+            "MARTIN FEATHERS"
+        ],
         "m_c": {
             "age": ["any"],
             "dies": false
@@ -18513,7 +18559,8 @@
             "WHITE ROSE",
             "GOLDEN FLOWER",
             "DANDELIONS",
-            "DANDELION PUFFS"
+            "DANDELION PUFFS",
+            "DAISY CORSAGE"
         ],
         "m_c": {
             "age": [
@@ -18572,7 +18619,8 @@
             "WHITE ROSE",
             "GOLDEN FLOWER",
             "DANDELIONS",
-            "DANDELION PUFFS"
+            "DANDELION PUFFS",
+            "DAISY CORSAGE"
         ],
         "m_c": {
             "age": [
@@ -18935,6 +18983,210 @@
                 "adult",
                 "senior adult",
                 "senior"
+            ]
+        }
+    },
+    {
+        "event_id": "mod_daisycorsage_accessory1",
+        "location": [
+            "any"
+        ],
+        "season": [
+            "any"
+        ],
+        "sub_type": [
+            "accessory"
+        ],
+        "frequency": 1,
+        "event_text": "m_c received a present, gently weaved acc_plural, from r_c and decided to keep it with {PRONOUN/m_c/object} on {PRONOUN/m_c/poss} pelt.",
+        "new_accessory": [
+            "DAISY CORSAGE"
+            ],
+        "m_c": {
+            "age": [
+                "kitten",
+                "adolescent",
+                "young adult",
+                "adult",
+                "senior adult",
+                "senior"
+            ]
+        },
+        "r_c": {
+            "age": [
+                "kitten",
+                "adolescent",
+                "young adult",
+                "adult",
+                "senior adult",
+                "senior"
+            ]
+        }
+    },
+    {
+        "event_id": "mod_daisycorsage_accessory2",
+        "location": [
+            "any"
+        ],
+        "season": [
+            "any"
+        ],
+        "sub_type": [
+            "accessory"
+        ],
+        "frequency": 1,
+        "event_text": "Over the past few days, m_c has been adamant on being near a nearby daisy patch. On an early morning, m_c reveals that {PRONOUN/m_c/subject} {VERB/m_c/have/has} been braiding a daisy corsage for {PRONOUN/m_c/poss} tail! m_c flaunts {PRONOUN/m_c/poss} work proudly.",
+        "new_accessory": [
+            "DAISY CORSAGE"
+            ],
+        "m_c": {
+            "age": [
+                "adolescent",
+                "young adult",
+                "adult",
+                "senior adult",
+                "senior"
+            ]
+        }
+    },
+    {
+        "event_id": "mod_daisycorsage_accessory3",
+        "location": [
+            "any"
+        ],
+        "season": [
+            "any"
+        ],
+        "sub_type": [
+            "accessory"
+        ],
+        "frequency": 1,
+        "event_text": "m_c, inbetween playfighting with r_c, collects scraps of daisies that sometimes get stuck in r_c's pelt. After quite a while, m_c {VERB/m_c/crafts/craft} a daisy corsage for {PRONOUN/m_c/poss} tail!",
+        "new_accessory": [
+            "DAISY CORSAGE"
+            ],
+        "m_c": {
+            "age": [
+                "kitten",
+                "adolescent",
+                "young adult",
+                "adult",
+                "senior adult",
+                "senior"
+            ]
+        },
+        "r_c": {
+            "age": [
+                "kitten",
+                "adolescent",
+                "young adult",
+                "adult",
+                "senior adult",
+                "senior"
+            ]
+        }
+    },
+    {
+        "event_id": "mod_muddypaws_accessory1",
+        "location": [
+            "any"
+        ],
+        "season": [
+            "any"
+        ],
+        "sub_type": [
+            "accessory"
+        ],
+        "frequency": 1,
+        "event_text": "m_c comes back from patrol, paws all muddied. Despite being told to not track mud throughout the camp, m_c assures r_c it'll be fine. It's a new fashion statement, overall!",
+        "new_accessory": [
+            "MUDDY PAWS"
+            ],
+        "m_c": {
+            "age": [
+                "adolescent",
+                "young adult",
+                "adult",
+                "senior adult",
+                "senior"
+            ]
+        },
+        "r_c": {
+            "age": [
+                "young adult",
+                "adult",
+                "senior adult",
+                "senior"
+            ]
+        }
+    },
+    {
+        "event_id": "mod_muddypaws_accessory2",
+        "location": [
+            "any"
+        ],
+        "season": [
+            "any"
+        ],
+        "sub_type": [
+            "accessory"
+        ],
+        "frequency": 1,
+        "event_text": "m_c returns back to camp, paws muddied. It's a new fashion statement- or so {PRONOUN/m_c/subject} {VERB/m_c/say/says}.",
+        "new_accessory": [
+            "MUDDY PAWS"
+            ],
+        "m_c": {
+            "age": [
+                "adolescent",
+                "young adult",
+                "adult",
+                "senior adult",
+                "senior"
+            ]
+        }
+    },
+    {
+        "event_id": "mod_bloodypaws_accessory1",
+        "location": [
+            "any"
+        ],
+        "season": [
+            "any"
+        ],
+        "sub_type": [
+            "accessory"
+        ],
+        "frequency": 1,
+        "event_text": "m_c doesn't seem to mind the stares when {PRONOUN/m_c/subject} {VERB/m_c/walk/walks} into camp, sporting red-stained paws. What's the issue? It's just some leftover prey blood, or so m_c claims.",
+        "new_accessory": [
+            "BLOODY PAWS"
+            ],
+        "m_c": {
+            "age": [
+                "adolescent",
+                "young adult",
+                "adult",
+                "senior adult",
+                "senior"
+            ],
+            "trait": [
+                "arrogant",
+                "ambitious",
+                "bloodthirsty",
+                "bold",
+                "childish",
+                "confident",
+                "cunning",
+                "daring",
+                "fierce",
+                "flamboyant",
+                "oblivious",
+                "rebellious",
+                "shameless",
+                "strange",
+                "troublesome",
+                "vengeful"
             ]
         }
     }
