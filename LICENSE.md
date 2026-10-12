@@ -2,7 +2,7 @@ All CODE in this project falls under the Mozilla Public License Version 2.0 lice
 
 All SPRITES/ART/ICON in this project falls under the Creative Commons Attribution-NonCommercial 4.0 International License (https://creativecommons.org/licenses/by-nc/4.0/)
 
-
+If anything were to occur to make Selkirks no longer able to update any ClanGen branches due to external factors, all updates will be ceased and it will follow GitHub's Deceased User Policy (https://docs.github.com/en/site-policy/other-site-policies/github-deceased-user-policy)
 
 Mozilla Public License Version 2.0
 ==================================
