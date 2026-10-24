@@ -112,6 +112,7 @@
             "Rosette": "spotted",
             "Freckled": "spotted",
             "Spots": "spotted",
+            "Lynx": "spotted",
             "SingleColour": "plain",
             "TwoColour": "plain",
             "Smoke": "plain",
@@ -121,6 +122,7 @@
             "Masked": "exotic",
             "Abyssinian": "exotic",
             "Wolf": "exotic",
+            "Doberman": "exotic",
             "Tortie": "torties",
             "Calico": "torties"
         }

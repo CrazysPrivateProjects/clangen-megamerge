@@ -59,11 +59,19 @@
             "WOLFUNDERS",
             "WOLFPATTERN",
             "WOLFOVER",
-            "ABYSSINIANBOTTOM",
-            "ABYSSINIANMIDDLE"
+            "ABYSSINIANBOTTOM"
         ],
         [
-            "ABYSSINIANTOP"
+            "ABYSSINIANMIDDLE",
+            "ABYSSINIANTOP",
+            "LYNXUNDERS",
+            "LYNXTOP",
+            "LYNXSPOTS",
+            "LYNXEYEPATTERN",
+            "LYNXNOSEPATTERN",
+            "DOBERMANTOP",
+            "DOBERMANPATTERN",
+            "DOBERMANPATTERNGRADIENT"
         ]
 
     ]
