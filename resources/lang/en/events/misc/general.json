@@ -17992,6 +17992,12 @@
             ],
             "dies": false
         },
+        "injury": [
+            {
+              "cats": ["m_c"],
+              "injuries": ["stinky"]
+            }
+        ],
         "relationships": [
             {
                 "cats_from": [
@@ -18029,6 +18035,12 @@
         "r_c": {
             "group": ["player_clan"]
         },
+        "injury": [
+            {
+              "cats": ["m_c"],
+              "injuries": ["stinky"]
+            }
+        ],
         "relationships": [
             {
                 "cats_from": ["r_c"],
