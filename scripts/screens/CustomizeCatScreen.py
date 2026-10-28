@@ -10,6 +10,7 @@ from scripts.cat.cats import Cat
 from scripts.cat.pelts import Pelt
 from scripts.cat.sprites.load_sprites import sprites
 from scripts.game_structure import game
+from ..game_structure.game.switches import switch_set_value, switch_get_value, Switch
 from ..game_structure.screen_settings import MANAGER
 from ..ui.elements.image_button import UIImageButton
 from ..ui.elements.surface_image_button import UISurfaceImageButton
@@ -108,37 +109,37 @@ class CustomizeCatScreen(Screens):
         self.back_button = None
         self.next_cat_button = None
 
-        self.pelt_names = list(Pelt.sprites_names.keys())
+        self.pelt_names = list(sprites.GENERATION_GROUP_DATA["pelts"]["pattern_types"].keys())
         self.pelt_name_label = None
         self.pelt_name_dropdown = None
 
-        self.pelt_colours = copy(Pelt.pelt_colours)
+        self.pelt_colours = copy(Pelt.all_pelt_colours)
         self.pelt_colour_label = None
         self.pelt_colour_dropdown = None
 
-        self.patterns = copy(Pelt.tortiepatterns)
+        self.patterns = copy(Pelt.tortie_patches)
         self.pattern_label = None
         self.pattern_dropdown = None
 
-        self.tortie_bases = copy(Pelt.tortiebases)
+        self.tortie_bases = copy(Pelt.tortie_patches)
         self.tortie_base_label = None
         self.tortie_base_dropdown = None
 
-        self.tortie_colours = copy(Pelt.pelt_colours)
+        self.tortie_colours = copy(Pelt.all_pelt_colours)
         self.tortie_colour_label = None
         self.tortie_colour_dropdown = None
 
-        self.tortie_patterns = copy(Pelt.tortiepatterns)
+        self.tortie_patterns = copy(Pelt.tortie_patches)
         self.tortie_pattern_label = None
         self.tortie_pattern_dropdown = None
 
         self.white_patches = copy(Pelt.little_white + Pelt.mid_white + Pelt.high_white + Pelt.mostly_white)
-        self.white_patches.append(Pelt.white_sprites[6]) # add fullwhite patch
+        self.white_patches.append("FULLWHITE") # add fullwhite patch
         self.white_patches.insert(0, "None")
         self.white_patches_label = None
         self.white_patches_dropdown = None
 
-        self.vitiligo_patterns = copy(Pelt.vit)
+        self.vitiligo_patterns = copy(Pelt.vitiligo_markings)
         self.vitiligo_patterns.insert(0, "None")
         self.vitiligo_label = None
         self.vitiligo_dropdown = None
@@ -164,7 +165,7 @@ class CustomizeCatScreen(Screens):
         self.reset_message = None
         self.reset_button = None
 
-        self.eye_colours = [colour.capitalize() for colour in copy(Pelt.eye_colours)]
+        self.eye_colours = [colour.capitalize() for colour in copy(Pelt.all_eye_colours)]
         self.eye_colour1_label = None
         self.eye_colour1_dropdown = None
         self.heterochromia_text = None
@@ -185,11 +186,11 @@ class CustomizeCatScreen(Screens):
         self.pose_left_button = None
 
         self.accessories = ["None"] + list(
-            dict.fromkeys((Pelt.plant_accessories + Pelt.wild_accessories + Pelt.tail_accessories) + Pelt.collars))
+            dict.fromkeys((Pelt.plant_accessories + Pelt.wild_accessories + Pelt.tail_accessories) + Pelt.collar_accessories))
         self.accessory_label = None
         self.accessory_dropdown = None
 
-        self.scars = ["None"] + copy(Pelt.scars1 + Pelt.scars2 + Pelt.scars3)
+        self.scars = copy(Pelt.scars)
         self.scar_message = None
         self.scar1_label = None
         self.scar1_dropdown = None
@@ -216,9 +217,13 @@ class CustomizeCatScreen(Screens):
         )
         self.build_cat_page()
 
+
     def build_cat_page(self):
-        self.the_cat = Cat.fetch_cat(game.switches["cat"])
-        (self.next_cat, self.previous_cat) = self.the_cat.determine_next_and_previous_cats()
+        self.the_cat = Cat.fetch_cat(switch_set_value(Switch.cat, self.the_cat))
+        cat_name = str(self.the_cat.name)
+        cat_name = shorten_text_to_fit(cat_name, 500, 20)
+        if self.the_cat.dead:
+                    cat_name = i18n.t("general.dead_label", name=cat_name)
         self.cat_elements["cat_name"] = create_text_box("customize " + str(self.the_cat.name), (0, 40), (400, 40),
                                                         "#text_box_34_horizcenter", {"centerx": "centerx"})
         self.setup_buttons()
@@ -246,7 +251,7 @@ class CustomizeCatScreen(Screens):
         self.tint_label = create_text_box("tint", (480, 335), (135, 40), "#text_box_22_horizleft")
         self.skin_label = create_text_box("skin", (640, 335), (135, 40), "#text_box_22_horizleft")
         self.reset_message = create_text_box("Changes cannot be reset after leaving this cat's customization page.",
-                                             (25, 395), (270, 60), "#text_box_26_horizcenter")
+                                            (25, 395), (270, 60), "#text_box_26_horizcenter")
         self.eye_colour1_label = create_text_box("eye colour 1", (320, 420), (135, 40), "#text_box_22_horizleft")
         self.heterochromia_text = create_text_box("heterochromia", (495, 451), (135, 40), "#text_box_26_horizcenter")
         self.eye_colour2_label = create_text_box("eye colour 2", (640, 420), (135, 40), "#text_box_22_horizleft")
@@ -285,7 +290,7 @@ class CustomizeCatScreen(Screens):
                                                   create_options_list(self.pelt_names, "capitalize"),
                                                   get_selected_option(self.the_cat.pelt.name, "capitalize"))
         self.pelt_colour_dropdown = create_dropdown((480, 125), (135, 40),
-                                                    create_options_list(self.pelt_colours, "upper"),
+                                                    create_options_list(self.all_pelt_colours, "upper"),
                                                     get_selected_option(self.the_cat.pelt.colour, "upper"))
         self.pattern_dropdown = create_dropdown((640, 125), (135, 40), create_options_list(self.patterns, "upper"),
                                                 get_selected_option(self.the_cat.pelt.pattern, "upper"))

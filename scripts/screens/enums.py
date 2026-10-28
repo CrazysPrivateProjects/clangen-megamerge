@@ -35,6 +35,7 @@ class GameScreen(StrEnum):
     # screens accessed through profile
     CEREMONY = "ceremony_screen"
     SPRITE_INSPECT = "sprite_inspect_screen"
+    CUSTOMIZE_CAT = "customize_cat_screen"
     RELATIONSHIP = "relationship_screen"
     FAMILY_TREE = "family_tree_screen"
     CHANGE_GENDER = "change_gender_screen"
