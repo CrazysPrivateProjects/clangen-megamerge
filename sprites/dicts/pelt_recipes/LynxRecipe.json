@@ -1,0 +1,40 @@
+{
+    "name": "LynxRecipe",
+    "layer_order": ["1", "2", "3", "4", "5", "6", "7", "8"],
+    "layers": {
+        "8": {
+            "group_name": "LYNXNOSEPATTERN",
+            "color": "lynx_nose"
+        },
+        "7": {
+            "group_name": "LYNXEYEPATTERN",
+            "color": "lynx_eyes"
+        },
+        "6": {
+            "group_name": "LYNXSPOTS",
+            "color": "lynx_spots"
+        },
+        "5": {
+            "group_name": "LYNXTOP",
+            "color": "lynx_top"
+        },
+        "4": {
+            "group_name": "LYNXUNDERS",
+            "color": "lynx_unders"
+        },
+        "3": {
+            "group_name": "SIMPLETOPGRAD",
+            "color": "base_gradient_top"
+        },
+        "2": {
+            "group_name": "SIMPLEBOTTOMGRAD",
+            "color": "base_gradient_bottom"
+        },
+        "1":
+        {
+            "group_name": "BASEMASK",
+            "color": "base"
+        }
+    },
+    "exceptions": []
+}

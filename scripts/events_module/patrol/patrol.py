@@ -57,8 +57,6 @@ def get_patrol_temperament(patrol_cats: list, patrol_leader=None) -> tuple[str, 
             weight = 2
         else:  # medicine cat and all others
             weight = 1
-        if patrol_leader is not None and cat == patrol_leader:
-            weight += 1
 
         sociability += [cat.personality.sociability] * weight
         aggression += [cat.personality.aggression] * weight
@@ -522,9 +520,10 @@ class Patrol:
         chosen_success, self.outcome_cats["success"] = get_valid_event(
             primary_cat=self.involved_cats["p_l"],
             involved_cats=self.involved_cats,
-            interactable_cats=[c for c in self.involved_cats["patrol_cats"]],
+            interactable_cats=self.involved_cats["patrol_cats"],
             possible_events=success_outcomes,
             other_clan=self.other_clan,
+            chosen_poi=self.chosen_poi if self.chosen_poi else None,
             ensured_id=debug_outcome,
         )
 
@@ -537,13 +536,10 @@ class Patrol:
         chosen_failure, self.outcome_cats["failure"] = get_valid_event(
             primary_cat=self.involved_cats["p_l"],
             involved_cats=self.involved_cats,
-            interactable_cats=[
-                c
-                for c in self.involved_cats["patrol_cats"]
-                if c != self.involved_cats["p_l"]
-            ],
+            interactable_cats=self.involved_cats["patrol_cats"],
             possible_events=fail_outcomes,
             other_clan=self.other_clan,
+            chosen_poi=self.chosen_poi if self.chosen_poi else None,
             ensured_id=debug_outcome,
         )
         if not chosen_failure:
@@ -617,13 +613,25 @@ class Patrol:
             f"Outcome Frequency: {chosen_outcome.frequency} | Outcome Weight: {chosen_outcome.weight}"
         )
 
-        # Run the chosen outcome
-        return handle_consequences.execute_outcome(
+        processed_text, results, rel_results = handle_consequences.execute_outcome(
             chosen_outcome,
             self.outcome_cats["success" if success else "failure"],
             self.other_clan,
             self.chosen_poi,
-        ) + (self.get_patrol_art(chosen_outcome),)
+        )
+        final_results = []
+        for r in results.values():
+            # filter out the "empty" values
+            if r:
+                final_results.append(r)
+
+        # Run the chosen outcome
+        return (
+            processed_text,
+            "\n".join(final_results),
+            rel_results,
+            self.get_patrol_art(chosen_outcome),
+        )
 
     def calculate_success(
         self, success_outcome: TextPoolEvent, fail_outcome: TextPoolEvent

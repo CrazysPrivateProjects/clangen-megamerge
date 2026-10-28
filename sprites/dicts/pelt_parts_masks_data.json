@@ -47,22 +47,31 @@
             "BENGALPATTERNFILL",
             "MASKEDCHIN",
             "SOKOKEPATTERNFILLGRAD",
-            "ABYSSINIANTOP"
-        ],
-        [
-            "ABYSSINIANBOTTOM",
-            "ABYSSINIANMIDDLE",
-            "WOLFUNDERS",
-            "WOLFPATTERN",
-            "WOLFOVER",
-            "SPOTSGRADIENT",
-            "SPOTSPATTERN",
-            "SPOTSUNDERS",
             "LEGBOTTOMGRAD"
         ],
         [
             "BACKTAILPATTERNGRAD",
-            "LEGPATTERNGRAD"
+            "LEGPATTERNGRAD",
+            "MASKEDEYEBROWS",
+            "SPOTSUNDERS",
+            "SPOTSPATTERN",
+            "SPOTSGRADIENT",
+            "WOLFUNDERS",
+            "WOLFPATTERN",
+            "WOLFOVER",
+            "ABYSSINIANBOTTOM"
+        ],
+        [
+            "ABYSSINIANMIDDLE",
+            "ABYSSINIANTOP",
+            "LYNXUNDERS",
+            "LYNXTOP",
+            "LYNXSPOTS",
+            "LYNXEYEPATTERN",
+            "LYNXNOSEPATTERN",
+            "DOBERMANTOP",
+            "DOBERMANPATTERN",
+            "DOBERMANPATTERNGRADIENT"
         ]
 
     ]

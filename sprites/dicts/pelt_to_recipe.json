@@ -20,5 +20,7 @@
     "Masked": "MaskedRecipe",
     "Abyssinian": "AbyssinianRecipe",
     "Wolf": "WolfRecipe",
-    "Spots": "SpotsRecipe"
+    "Spots": "SpotsRecipe",
+    "Lynx": "LynxRecipe",
+    "Doberman": "DobermanRecipe"
 }
